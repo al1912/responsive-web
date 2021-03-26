@@ -1,0 +1,46 @@
+@media (max-width:945px){
+
+    header ul li{
+
+        display: block;
+        padding: 5px;
+        position: relative;
+        top: 127px;
+        right: -180px;
+        background-color: #000;
+        transition: .3s ease;
+     
+    }
+
+    header ul li a{
+
+        padding:0 40px 0 0 ;
+
+    }
+  
+
+    header label .fa-bars{
+
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 25px;
+
+    }
+
+    #check{
+
+        display: none;
+
+    }
+
+    #check:checked ~ ul li{
+
+        visibility: visible;
+        right: -10px;
+
+    }
+
+    
+
+}
