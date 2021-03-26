@@ -1,0 +1,175 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+
+}
+
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul{
+
+    list-style: none;
+
+}
+
+header ul li{
+
+    display: inline-block;
+    padding: 27px;
+    margin-right:10px ;
+
+}
+
+header ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header h1{
+
+    color: #fff;
+    margin-left: 40px;
+    cursor: default;
+
+}
+
+header ul li:hover{
+
+    background-color: #fff;
+
+}
+
+header ul li:hover a{
+
+    color:black;
+
+}
+
+header h1:hover{
+
+    color: chocolate;
+
+}
+
+header .fa-bars{
+
+    color: white;
+    font-size: 30px;
+    display: none;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+header .fa-bars:hover{
+
+    color: chocolate;
+
+}
+
+#check{
+
+    display: none;
+
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+
+}
+
+
+.content:nth-child(odd){
+
+    background-color: #000;
+    color: white;
+
+}
+
+footer{
+
+    width:100%;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+
+}
+
+footer h2,
+footer h4{
+
+    font-weight: normal;
+
+}
+
+footer .form-comment{
+
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+footer .form-comment input{
+
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+footer .form-comment #comment-title{
+
+    margin-top: 10px;
+
+}
+
+footer .form-comment #comment{
+
+    padding-bottom: 30px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+footer .form-comment #submit{
+
+    background-color: rgb(50, 167, 50);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+footer .form-comment #submit:active{
+
+    margin-top: 4px;
+
+}
+
